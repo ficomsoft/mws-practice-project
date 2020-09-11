@@ -1,0 +1,211 @@
+*{
+    font-family: "Rimouski";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #293251;
+}
+
+.weather-info{
+    flex: 1 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+/*    background-image: linear-gradient(to bottom, (0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));*/
+    background-color: #c0e3f5;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title h1{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    color: white;
+    background-color: #293251;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value h2{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.6em;
+}
+
+.temperature-description{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+}
+
+.location h2{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 1.2em;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 15px;
+}
+
+.search-box input{
+    width: 100%;
+    max-width: 280px;
+    font-size: 1.4em;
+    padding: 5px;
+    border: none;
+    outline: none;
+/*    border-bottom: 2px solid #f7f7f8;*/
+    text-align: center;
+    text-transform: capitalize;
+/*    background-color: rgba(255, 255, 255, 0.4);*/
+    border-radius: 10px;
+}
+
+/*
+.search-box input:focus{
+    background-color: rgba(255, 255, 255, 0.6);
+}*/
+
+
+/* Media Queries */
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="description" content="Building a Weather App for GADS2020 MWS Practice Project">
+	<meta name="author" content="KwabSA">
+    <meta name="theme-color" content="#4caae5">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> JS Weather App </title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="/maskable_icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body>
+    <main class="container">
+        <section class="app-title">
+            <h1>Your Weather Info</h1>
+        </section>
+        <section class="weather-info">
+            <div class="location">
+                <h2> - </h2>
+            </div>
+            <div class="date"> <h3> - </h3> </div>
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="weather image" /></div>
+            <section class="temperature-value">
+                <h2> - <span>C</span></h2>
+            </section>
+            <section class="temperature-description">
+                <h3> - </h3>
+            </section>
+        </section>
+        <div class="search-box">
+            <label></label>
+            <input type="text" autocomplete="off" placeholder="Search City" class="search-query" autofocus />
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

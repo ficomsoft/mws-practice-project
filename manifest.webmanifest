@@ -1,0 +1,58 @@
+{
+    "name": "WeatherAppInfo",
+    "short_name": "WeatherApp",
+    "description": "Building a Weather App for GADS2020 MWS Practice Project",
+    "icons": [
+        {
+            "src": "icons/01d.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/01d.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+          "src": "icons/maskable_icon.png",
+          "sizes": "196x196",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "theme_color": "#4caae5",
+    "background_color": "#4caae5",
+    "prefer_related_applications": "true"
+}
